@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Software and Operating System - Grade 11</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #b3cde0;
+        }
+        .container {
+            margin-left: 320px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #011f4b;
+            font-family:'Times New Roman', Times, serif;
+            font-size:25px;
+        }
+        p, li {
+            color: black;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .left-section {
+            width: 300px;
+            background-color: #03396c;
+            padding-top: 60px; /* Increased top padding */
+            position: fixed; 
+            height: 100vh; 
+            box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .left-section a {
+            color: white;
+            background-color: #005b96; 
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block; 
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .left-section a:hover {
+            background-color: #6497b1;
+            color: white;
+            transform: scale(1.05);
+        }
+        .fbg {
+            background-color: #6497b1;
+            padding:0.5cm;
+            margin-bottom: 20px; /* Added spacing between sections */
+            border-radius: 8px; /* Rounded corners for better aesthetics */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+        }
+        .ff{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #005b96;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-section">
+        <a href="index.html">Home</a>
+        <a href="#introduction">Introduction to Internet</a>
+        <a href="#tri">Internet Services and Applications</a>
+        <a href="#tri">Terms related to the Internet </a>
+        <a href="#intro">Introduction to html</a>
+        <a href="#features">Features of html</a>
+        <a href="#sample">Sample html code</a>
+        <a href="#ccc">Common Terminologies related to Web Designing</a>
+         <a href="#intr">Database Management System </a>
+         <a href="#QUEST">Practise Questions</a>
+       
+    </div>
+    <div class="container">
+         <h1>Chapter-5: Web Technology (html + CSS) </h1>
+        
+        <div class="fbg"><h2 id="introduction">Introduction to Internet</h2></div>
+        <p>Internet is the global network of networks. or, It is huge collection of computers all over the world that is inter-connected to one another in various ways to form a web-net.</p>
+        <div class="fbg" ><h2 id="ft">Internet services and applications</h2></div>
+        <p><ol>
+            <li><strong>World Wide Web (WWW):</strong> WWW is a series of services that are interconnected through hypertext. It provides links in the web document. It is the most important service provided by the Internet. It was created in 1990 at the European Particle Physics Laboratory in Geneva, Switzerland, to exchange and share data through the Internet using the protocol known as Hypertext Transfer Protocol (HTTP).</li>
+    
+            <li><strong>Web Browser:</strong> A web browser is a computer program that accesses web pages and displays them on a computer screen. It is client software that allows users to display and interact with a web page. Web browsers help find, retrieve, view, send, and receive information over the Internet. Without a web browser, we cannot open the WWW. Some popular web browsers are Internet Explorer, Safari, Mozilla Firefox, Opera, Deepnet Explorer, Netscape Navigator, and Mosaic.</li>
+    
+            <li><strong>FTP - File Transfer Protocol:</strong> It is an Internet tool that permits an Internet user to move or transfer a file from one computer to another. The files may contain data, graphics, text, etc.</li>
+    
+            <li><strong>Electronic Mail (E-mail):</strong> Sending and receiving messages electronically through the Internet is called E-mail. It is the most widely used feature of the Internet. E-mail messages include digital text, graphics, video, animation, and audio data.</li>
+    
+            <li><strong>Voicemail:</strong> Voicemail is a service offered by specialized computer hardware and software that answers telephone calls and records audio messages. We can talk to people using voicemail in an easy way.</li>
+    
+            <li><strong>USENET – View and News:</strong> USENET, also called View and News, is the BBS (Bulletin Board Service) of the Internet. The messages in this BBS are organized into thousands of newsgroups, which cover specific areas of the Internet.</li>
+    
+            <li><strong>Chat:</strong> Chat is a special feature provided by the Internet to communicate with others by typing in real time. A user can log into any chat room and connect with any person who is online. It is a very easy way to exchange ideas, feelings, and information. Offline messaging is also available if your friend is not online.</li>
+            <li><strong>IRC(Internet Relay Chat):</strong> Internet Relay Chat (IRC) is a huge multi-user live chat facility. There are a number of major IRC servers around the world, which are linked to each other. Anyone can create a channel and all others in the channel see anything that anyone types in a given channel.</li>
+           <li><strong>Video Conference:</strong>  It is known as web cam chatting these days. This Video Conferencing uses the same technology as IRC but also provides sound and video pictures. It enables direct face-to-face communication across networks. It also provides real-time visual communications (online chat).</li>
+           <li><strong>Universal Resource Locator (URL): </strong> URL is a unique address that identifies its location on the Internet. Web browsers utilize the URL to retrieve a file from the computer on which it resides. The format of the URL is given below:</li</p>
+      <p> <ul>
+       <li> http   -           protocol</li>
+
+<li>www                 -           host computer name</li>
+
+<li>animalplanet       -           domain name</li>
+
+<li>com                  -           domain type</li></ul>
+<li><strong>Navigators – Information Servers</strong> These are special features of Internet to discover, locate, and retrieve information on various objects. Some of the well-known utilities are Gopher, Archie, Hytelnet, WAIS, and WWW. The WWW navigator is the most popular and has resulted in the massive growth of Internet resources.</li>
+    <li><strong>TELNET – Remote Login:</strong>  Telnet allows users to login to a host computer from a remote computer using a telnet program. In other words, it gives the user the opportunity to be on one computer system and work on another computer system, which may be across the street or thousands of miles away.</li>
+        <li><strong>E-Fax (Electronic Fax):</strong> It is another facility available in the Internet to send and receive faxes directly on our computer. It is very same of E-mail. The E-Fax message first goes to the Internet server, then the Internet server sends it to its destination whereas E-mail message goes to the local file server.</li></p></ol>
+
+        </li</p>
+        <div class="fbg"><h2 id="tri">Terms related to the Internet</h2></div>
+    
+    <ol type="i">
+        <li>
+            <strong>ISP (Internet Service Provider):</strong> An institution that provides access to the Internet, usually for money. Examples in Nepal include Mercantile, Everest Net, and World Link.
+        </li>
+        <li>
+            <strong>Link:</strong> A quick way to navigate to other web pages from your current page. Links are usually displayed in a different color than the surrounding text.
+        </li>
+        <li>
+            <strong>Search Engine:</strong> Software that searches the web for sites. Examples include Yahoo, Excite, Lycos, and Alta Vista.
+        </li>
+        <li>
+            <strong>Domain Name and IP Address:</strong> A unique name that identifies an Internet site. Domain names have two or more parts separated by dots. The IP address is the corresponding numeric identifier that facilitates data transfer between computers.
+        </li>
+        <li>
+            <strong>DNS Server:</strong> A server that translates domain names into IP addresses. For example, Internet.net.
+        </li>
+        <li>
+            <strong>Web Server:</strong> A site or program that hosts web pages and responds to requests from web browsers.
+        </li>
+        <li>
+            <strong>Usenet Newsgroups or Net News:</strong> Specialized forums for discussing specific topics. For example, typing "Sci" for science or "Rec" for recreation in the search box will provide related information.
+        </li>
+        <li>
+            <strong>Mailing Lists:</strong> Special email lists delivered to subscribers' mailboxes.
+        </li>
+        <li>
+            <strong>POP Server:</strong> A server that stores incoming emails for users to collect. The Post Office Protocol (POP) allows single-user hosts to read mail from a server.
+        </li>
+        <li>
+            <strong>SMTP Server:</strong> A server that transfers electronic mail between computers using the Simple Mail Transfer Protocol (SMTP).
+        </li>
+        <li>
+            <strong>FTP (File Transfer Protocol):</strong> A protocol used to transfer files between computers on a network. Other protocols include TCP/IP, HTTP, and SMTP.
+        </li>
+        <li>
+            <strong>Anonymous FTP:</strong> A facility to access archived files, such as software, documents, and media, without requiring user identification.
+        </li>
+        <li>
+            <strong>Archived Files:</strong> A collection of files that are not publicly accessible.
+        </li>
+        <li>
+            <strong>HTTP (Hypertext Transfer Protocol):</strong> A protocol used by web browsers and servers to communicate and transfer HTML documents.
+        </li>
+        <li>
+            <strong>Proxy Server:</strong> A server that improves access speed and updates information on websites.
+        </li>
+        <li>
+            <strong>Internet Roaming:</strong> A facility that allows users to access their Internet account from anywhere in the world, provided their ISP is part of the Global Roaming Community.
+        </li>
+        <li>
+            <strong>Email Address Breakdown:</strong>
+            <ul>
+                <li><strong>krishna</strong> - Username</li>
+                <li><strong>@</strong> - Separates the username and domain name</li>
+                <li><strong>wlink</strong> - ISP name providing the internet access account</li>
+                <li><strong>.com</strong> - Indicates a commercial organization or business</li>
+                <li><strong>.np</strong> - Country code for Nepal</li>
+            </ul>
+        </li>
+    </ol>
+    <div class="fbg"><h2 id="intro">Introduction to HTML</h2></div>
+    <p>HTML stands for Hyper Text Markup Language which are used to create web pages that are used in internet to exchange data and information. HTML file itself is a text file which contains several tags and attributes. HTML was develop by Tim Berner Lee that was based on SGML (Standard Generalized Markup Language). The tags and attributes used to create HTML file are displayed using web browser. Web browser helps to understand all the tags and attributes given by the user and generate the contain of the page. The different version of HTML are: HTML, HTML+, HTML 1.0, HTML2.0, HTML3.2, HTML 4.01 and now HTML 5.0.</p>
+    <img src="image copy 6.png" alt="html image">
+    <div class="fbg"><h2 id="features">Features of HTML</h2></div>
+    <ol>
+        <li>It is used to create a basic layout or design of a web page.</li>
+        <li>Without HTML, the worldwide web wouldn't exist.</li>
+        <li>It allows features like embedding images, videos, audio, etc.</li>
+        <li>It allows users to customize and format characters such as <strong>bold</strong>, <em>italic</em>, <u>underline</u>, etc.</li>
+        <li>It helps to create links and lists.</li>
+    </ol>
+    <div class="fbg"><h2 id="sample">Sample html code with internal CSS</h2></div>
+    <img src="Untitled.jpeg" alt="code">
+
+    <div class="fbg"><h2 id="ccc">Common Terminologies related to Web Designing </h2></div>
+
+        <ol type="a">
+            <li>
+                <strong>Webpage:</strong> It is generally an HTML document or written in any other scripting language that helps to execute information in the form of text, images, or any other component through the internet.
+            </li>
+            <li>
+                <strong>Website:</strong> The collection of interrelated webpages is known as a website. It may contain any piece of information or may have information that is interrelated with several webpages connected through hyperlinks. All websites have two parts:
+                <ul>
+                    <li><strong>Domain Name:</strong> The name used to access the website.</li>
+                    <li><strong>Web Server:</strong> It is a storage location where every piece of information associated with the website is stored.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Home Page:</strong> The introductory page that is executed first when we access a website.
+            </li>
+            <li>
+                <strong>Web Browser:</strong> It is an application program that helps to access any content of webpages, which may be in any form, using HTTP (Hypertext Transfer Protocol). This protocol helps to make communication between the web browser and the web server. Examples include Google Chrome, Internet Explorer (Microsoft Edge), Safari, Mozilla Firefox, and Netscape Navigator.
+            </li>
+            <li>
+                <strong>URL:</strong> It stands for Uniform Resource Locator. It is a standard way of referencing a protocol, host, and directory.
+            </li>
+        </ol>
+        <div class="fbg"><h2 id="intr">Database Management System </h2></div>
+
+            <p>
+                Data are the raw facts and figures. Data are isolated, uninterpreted, and don't give any sense unless and until they are processed. Simply, they are the entities collected from the random world which undergo processing. For example, <em>Ram, 19, 12, Pokhara</em>.
+            </p>
+        
+            <h2>Information</h2>
+            <p>
+                Information is the meaningful result obtained after processing data, which gives some meaning and sense. Generally, it is a processed version of data. For example, <em>Ram is a student whose age is 19, and he lives in Pokhara-12</em>.
+            </p>
+        
+            <h2>Database</h2>
+            <p>
+                As we know, information is obtained after processing data. Hence, we need data processing to convert data into information. Therefore, the systematic and scientific arrangement and organization of data so that we can retrieve it whenever required quickly and easily is called a <strong>database</strong>. A database is an organized collection of data for converting data into information so that it can give some meaningful results. For example, <em>Dictionary, Mark ledger, Census, Telephone directory</em>, etc.
+            </p>
+        
+            <h2>Database Management System (DBMS)</h2>
+            <p>
+                Since manual collection and organization of data are time-consuming, unsecured, and complex, there is an application program that helps to maintain a database, i.e., systematic and scientific organization and collection of data. This allows us to retrieve any piece of information within a fraction of time without any effort. Hence, the software or system built to fulfill the above requirements is known as a <strong>Database Management System (DBMS)</strong>. In other words, it is a collection of software that manages data stored in a database. The main purpose of DBMS is to store data, process it, and obtain desired information. For example, <em>MS-Access, MySQL, Oracle, FoxPro, dBase</em>.
+            </p>
+        
+            <h2>Advantages/Features/Importance of DBMS</h2>
+            <ul>
+                <li>It allows users to search quickly and easily.</li>
+                <li>It helps to reduce data redundancy (repetition).</li>
+                <li>It allows users to share data over a network.</li>
+                <li>It helps in data security and privacy.</li>
+                <li>It improves data inconsistency (variance).</li>
+                <li>It provides an organized way of storing data.</li>
+            </ul>
+        
+            <h2>Disadvantages of DBMS</h2>
+            <ul>
+                <li>Installation and operating costs are higher.</li>
+                <li>It requires more disk space.</li>
+                <li>It may sometimes have security and privacy issues.</li>
+                <li>Technical manpower (DBA) is required to maintain and operate.</li>
+            </ul>
+        
+            <a href="https://www.w3schools.com" >Click here for free html tutorial</a><br>
+
+           <br>
+        <div class="fbg"><h2 id="QUEST">Practise Questions</h2></div>
+    
+    <div class="ff">
+        <h3>1. What is HTML?</h3>
+    </div>
+    <p>HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages.</p>
+
+    <div class="ff">
+        <h3>2. What is a tag in HTML?</h3>
+    </div>
+    <p>A tag is a piece of markup language used to define elements in HTML. Tags are enclosed in angle brackets, like <code>&lt;tagname&gt;</code>.</p>
+
+    <div class="ff">
+        <h3>3. What is the difference between HTML and HTML5?</h3>
+    </div>
+    <p>HTML5 is the latest version of HTML. It introduces new elements, attributes, and APIs for better multimedia support, semantic elements, and improved performance compared to older versions of HTML.</p>
+
+    <div class="ff">
+        <h3>4. What is the purpose of the <code>&lt;head&gt;</code> tag in HTML?</h3>
+    </div>
+    <p>The <code>&lt;head&gt;</code> tag contains metadata about the HTML document, such as the title, character set, styles, scripts, and other information that is not displayed on the webpage itself.</p>
+
+    <div class="ff">
+        <h3>5. What is the use of the <code>&lt;a&gt;</code> tag in HTML?</h3>
+    </div>
+    <p>The <code>&lt;a&gt;</code> tag is used to create hyperlinks in HTML. It allows users to navigate to other web pages or resources by clicking on the link.</p>
+
+    <div class="ff">
+        <h3>6. What is the purpose of the <code>&lt;img&gt;</code> tag in HTML?</h3>
+    </div>
+    <p>The <code>&lt;img&gt;</code> tag is used to embed images in an HTML document. It requires the <code>src</code> attribute to specify the image file's path.</p>
+
+    <div class="ff">
+        <h3>7. What is the difference between <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> in HTML?</h3>
+    </div>
+    <p>The <code>&lt;div&gt;</code> tag is a block-level element used to group larger sections of content, while the <code>&lt;span&gt;</code> tag is an inline element used to style smaller portions of text or content.</p>
+
+    <div class="ff">
+        <h3>8. What is the purpose of the <code>&lt;table&gt;</code> tag in HTML?</h3>
+    </div>
+    <p>The <code>&lt;table&gt;</code> tag is used to create tables in HTML. It consists of rows (<code>&lt;tr&gt;</code>), headers (<code>&lt;th&gt;</code>), and data cells (<code>&lt;td&gt;</code>).</p>
+
+    <div class="ff">
+        <h3>9. What is the use of the <code>&lt;form&gt;</code> tag in HTML?</h3>
+    </div>
+    <p>The <code>&lt;form&gt;</code> tag is used to create forms in HTML. It allows users to input data, which can be submitted to a server for processing.</p>
+
+    <div class="ff">
+        <h3>10. What is the purpose of the <code>&lt;meta&gt;</code> tag in HTML?</h3>
+    </div>
+    <p>The <code>&lt;meta&gt;</code> tag is used to provide metadata about the HTML document, such as character encoding, author, description, and keywords for search engines.</p>
+
+    </div>
+</body>
+</html>
